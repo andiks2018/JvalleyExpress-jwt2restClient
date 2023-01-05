@@ -8,7 +8,7 @@
     "dev": "nodemon --exec babel-node ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "jvalley bootcamp",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^4.8.0",
