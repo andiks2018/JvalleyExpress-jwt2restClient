@@ -35,3 +35,4 @@ npx prisma db push
 
 https://www.youtube.com/watch?v=q4xadZTatXc
 
+https://dev.to/andiismail/express-jwt-2-5gp
