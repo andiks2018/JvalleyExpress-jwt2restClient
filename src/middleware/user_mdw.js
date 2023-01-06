@@ -22,7 +22,21 @@ const user_mdw = async (req = request, res = response, next) => {
                 message: "Token tidak terverifikasi!"
             })
         }
+
+        /**
+         * {
+         *  "id" : 1,
+         *  "email" : 'andi@andi.com'
+         * }
+         * 
+         * lanjut boss..
+         */
+        
+        //generate req body
+        req.body.user_id = verify.id
+        req.body.email = verify.email
         next()
+        
     } catch (error) {
         res.status(401).json({
             success: false,
